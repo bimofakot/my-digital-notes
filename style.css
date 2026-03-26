@@ -1,0 +1,75 @@
+:root {
+    --primary: #4f46e5;
+    --danger: #ef4444;
+    --bg: #f3f4f6;
+    --card: #ffffff;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    background: var(--card);
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+h1 { color: var(--primary); text-align: center; margin-bottom: 25px; }
+
+.input-section input, .input-section textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#saveBtn {
+    width: 100%;
+    padding: 12px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#saveBtn:hover { opacity: 0.9; }
+
+.note-card {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #ccc;
+}
+
+.delete-btn:hover { color: var(--danger); }
+
+small { color: #888; font-size: 11px; }
