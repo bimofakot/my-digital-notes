@@ -3,7 +3,9 @@
 Aplikasi pencatatan berbasis web sederhana yang menggunakan **Firebase Firestore** untuk penyimpanan data secara real-time. Proyek ini dibuat sebagai latihan implementasi database NoSQL dan sinkronisasi cloud.
 
 ## 🚀 Fitur Utama
-- **Sinkronisasi Real-time**: Catatan langsung terupdate tanpa perlu refresh halaman.- **Operasi CRUD**: Bisa Menambah (Create), Membaca (Read), dan Menghapus (Delete) catatan dengan lancar.- **Cloud Hosted**: Sudah online dan bisa diakses dari mana saja melalui Firebase Hosting.
+- **Sinkronisasi Real-time**: Catatan langsung terupdate tanpa perlu refresh halaman.
+- **Operasi CRUD**: Bisa Menambah (Create), Membaca (Read), dan Menghapus (Delete) catatan dengan lancar.
+- **Cloud Hosted**: Sudah online dan bisa diakses dari mana saja melalui Firebase Hosting.
 - **Desain Responsif**: Antarmuka bersih dan sederhana, nyaman dibuka di laptop maupun HP.
 
 ## 🛠️ Tech Stack
